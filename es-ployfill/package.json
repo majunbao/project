@@ -5,13 +5,13 @@
     "build": "webpack --output-path='./dist'"
   },
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-preset-env": "^1.4.0",
-    "webpack": "^2.4.1"
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-transform-object-rest-spread": "latest",
+    "babel-preset-env": "latest",
+    "webpack": "latest"
   },
   "dependencies": {
-    "babel-polyfill": "^6.23.0"
+    "babel-polyfill": "latest"
   }
 }
