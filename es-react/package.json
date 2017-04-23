@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "webpack",
+    "watch": "webpack --watch",
+    "build": "webpack --output-path='./dist'"
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-transform-object-rest-spread": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
+    "webpack": "latest"
+  },
+  "dependencies": {
+    "babel-polyfill": "latest",
+    "react": "^latest",
+    "react-dom": "^latest"
+  }
+}
