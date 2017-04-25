@@ -21,6 +21,7 @@
       {
         "useBuiltIns": true
       }
-    ]
+    ],
+    "transform-class-properties"
   ]
 }

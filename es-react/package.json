@@ -7,6 +7,7 @@
   "devDependencies": {
     "babel-core": "latest",
     "babel-loader": "latest",
+    "babel-plugin-transform-class-properties": "latest",
     "babel-plugin-transform-object-rest-spread": "latest",
     "babel-preset-env": "latest",
     "babel-preset-react": "latest",
