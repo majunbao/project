@@ -1,0 +1,33 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "safari >= 7",
+            "ie >= 9"
+          ]
+        },
+        "useBuiltIns": true
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "inferno",
+      {
+        "imports": true,
+        "pragma": ""
+      }
+    ],
+    [
+      "transform-object-rest-spread",
+      {
+        "useBuiltIns": true
+      }
+    ],
+    "transform-class-properties"
+  ]
+}
