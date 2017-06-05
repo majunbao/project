@@ -1,10 +1,6 @@
 import { h, render } from 'preact';
 import $ from 'jquery';
 
-function con() {
-  console.log($);
-}
-
 render((
   <div id="foo">
     <span>Hello, world!</span><br />
